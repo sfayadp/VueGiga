@@ -39,7 +39,6 @@ export default {
     orderedVowels: function () {
       var symbols, color;
 
-      debugger;
       var message = Object.assign([], this.message);
       var array = [];
       for (var i = 0; i < message.length; i++) {
