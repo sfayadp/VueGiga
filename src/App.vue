@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h2>Ejercicio</h2>
     <textarea v-model="message" placeholder="Write your message here" />
     <br />
     <span>{{ message }}</span>
